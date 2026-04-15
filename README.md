@@ -1,7 +1,7 @@
 # Quiz App
 
-## Live Project URL
+## Live Project
 https://quiz-app-a0879.web.app
 
-## Description
-This is a Firebase-based quiz application with authentication and Firestore integration.
+## Project Page
+https://roadmap.sh/projects/quiz-app
