@@ -1,0 +1,308 @@
+{
+  "title": "Web Fundamentals, Virtualization and Containers Quiz",
+  "description": "Answer 15 multiple-choice questions covering frontend basics, virtualization, containers, Docker, operating systems, and cloud infrastructure.",
+  "questionTime": 60,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "HTML Basics",
+      "prompt": "What does HTML stand for?",
+      "options": [
+        "Hyperlink and Text Markup Language",
+        "Hypertext Transfer Protocol",
+        "HyperText Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topic": "CSS Layout",
+      "prompt": "Which CSS property changes the layout model so children can align in a row or column?",
+      "options": ["position", "display", "float", "visibility"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "topic": "JavaScript",
+      "prompt": "Which array method creates a new array by transforming every item in the original array?",
+      "options": ["filter()", "map()", "forEach()", "find()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topic": "Accessibility",
+      "prompt": "Which attribute connects a visible label to a form input in standard HTML?",
+      "options": ["aria-label", "name", "for", "placeholder"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "topic": "State Management",
+      "prompt": "What should happen when a user runs out of time for a question in this quiz?",
+      "options": [
+        "The score should stay the same and the quiz should stop",
+        "The question should be marked skipped and the score should decrease by 1",
+        "The quiz should restart from the first question",
+        "The user should be forced to answer anyway"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "topic": "Containers",
+      "prompt": "What is a container in computing?",
+      "options": [
+        "A lightweight virtual machine",
+        "A package that includes an application and its dependencies",
+        "A physical storage unit",
+        "A cloud service"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "topic": "Virtualization",
+      "prompt": "What happens if the host machine crashes?",
+      "options": [
+        "Guest OS continues unaffected",
+        "Only one VM is affected",
+        "All running VMs stop",
+        "Hypervisor converts to Type 1"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "topic": "Cross-Platform Compatibility",
+      "prompt": "Why do applications compiled for Windows often fail to run on Linux without modification?",
+      "options": [
+        "Lack of internet access",
+        "Different system calls and libraries",
+        "Different file sizes",
+        "Slower processors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "topic": "Type 2 Virtualization",
+      "prompt": "What is a host OS in Type 2 virtualization?",
+      "options": [
+        "The OS installed inside the VM",
+        "The OS managing hardware directly",
+        "The OS on which the hypervisor runs",
+        "The OS used for networking"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "topic": "Execution Environments",
+      "prompt": "What is the main cause of cross-platform execution issues?",
+      "options": [
+        "High-level programming languages",
+        "Differences in operating systems and hardware architectures",
+        "Internet connectivity",
+        "User interface design"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "topic": "Cloud Computing",
+      "prompt": "Which cloud computing service model heavily relies on virtualization?",
+      "options": [
+        "SaaS (Software as a Service)",
+        "PaaS (Platform as a Service)",
+        "IaaS (Infrastructure as a Service)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "topic": "Containers vs VMs",
+      "prompt": "Which statement best describes containers compared to virtual machines?",
+      "options": [
+        "Containers require a full guest OS",
+        "Containers are heavier than VMs",
+        "Containers share the host OS kernel",
+        "Containers cannot be isolated"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 13,
+      "topic": "Hypervisors",
+      "prompt": "Which component allows multiple operating systems to run on a single physical machine?",
+      "options": ["BIOS", "Kernel", "Hypervisor", "Compiler"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "topic": "Docker",
+      "prompt": "What is a Docker image?",
+      "options": [
+        "A running container",
+        "A snapshot of the host OS",
+        "A read-only template for creating containers",
+        "A physical disk image"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "topic": "Docker",
+      "prompt": "What is a Docker container?",
+      "options": [
+        "A stopped image",
+        "A virtual hard disk",
+        "A running instance of a Docker image",
+        "A Docker server"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "topic": "OSI Model",
+      "prompt": "Which layer of the OSI model is responsible for data encryption?",
+      "options": ["Application", "Presentation", "Session", "Transport"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "topic": "Virtualization Security",
+      "prompt": "What is the main security benefit of virtualization?",
+      "options": [
+        "Faster boot times",
+        "Application isolation",
+        "Reduced power consumption",
+        "Larger storage capacity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "topic": "Networking",
+      "prompt": "Which protocol operates at the Transport layer?",
+      "options": ["HTTP", "FTP", "TCP", "ARP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "topic": "OSI Model",
+      "prompt": "Which OSI layer ensures compatibility between systems?",
+      "options": ["Presentation", "Session", "Transport", "Network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "topic": "Docker",
+      "prompt": "Which file defines how a Docker image is built?",
+      "options": ["docker.yml", "image.conf", "Dockerfile", "container.json"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "topic": "OSI Model",
+      "prompt": "Which OSI layer breaks frames into bits?",
+      "options": ["Data Link", "Network", "Physical", "Transport"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "topic": "Security",
+      "prompt": "Which protocol is used for secure email?",
+      "options": ["FTP", "SMTP", "SSL/TLS", "HTTP"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "topic": "Container Orchestration",
+      "prompt": "Which orchestration tool is commonly used with Docker?",
+      "options": ["Jenkins", "Kubernetes", "Git", "Ansible"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "topic": "Docker",
+      "prompt": "What is Docker Compose used for?",
+      "options": [
+        "Building single images",
+        "Managing Docker users",
+        "Defining and running multi-container applications",
+        "Monitoring system performance"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "topic": "OSI Model",
+      "prompt": "Which OSI layer handles compression?",
+      "options": ["Application", "Presentation", "Session", "Transport"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "topic": "Virtualization",
+      "prompt": "Which virtualization technique allows multiple OS instances to share the same kernel?",
+      "options": [
+        "Full virtualization",
+        "Hardware virtualization",
+        "Paravirtualization",
+        "OS-level virtualization"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 27,
+      "topic": "Docker",
+      "prompt": "Which command is used to create and start a container?",
+      "options": ["docker build", "docker pull", "docker run", "docker commit"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 28,
+      "topic": "Containers vs VMs",
+      "prompt": "What is the primary difference between containers and virtual machines?",
+      "options": [
+        "Containers require more hardware",
+        "VMs share the host OS kernel",
+        "Containers are heavier than VMs",
+        "VMs include a full guest OS"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 29,
+      "topic": "OSI Model",
+      "prompt": "Which OSI layer provides services like email and file transfer?",
+      "options": ["Transport", "Network", "Application", "Presentation"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 30,
+      "topic": "Security",
+      "prompt": "What is a zero-day vulnerability?",
+      "options": [
+        "Fixed vulnerability",
+        "Known vulnerability",
+        "Unknown vulnerability",
+        "Old vulnerability"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 31,
+      "topic": "Security",
+      "prompt": "What is the purpose of hashing?",
+      "options": [
+        "Encrypting data",
+        "Compressing data",
+        "Data integrity verification",
+        "Data backup"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
